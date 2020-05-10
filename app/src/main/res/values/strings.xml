@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NVision I Will Succeed</string>
+    <string name="press_button">Press to be Motivated</string>
+    <string name="imageView_believe">Believe in Yourself</string>
+    <string name="imageView_live">Live Your Dream</string>
+    <string name="quote">Motivational Quotes</string>
+</resources>

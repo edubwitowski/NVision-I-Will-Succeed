@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/boxbckground3"
+    tools:context="com.example.onenvision.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/believe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_toEndOf="@+id/live"
+            android:layout_toRightOf="@+id/live"
+            android:contentDescription="@string/imageView_believe"
+            app:srcCompat="@drawable/believe" />
+
+        <ImageView
+            android:id="@+id/live"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="6dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/imageView_live"
+            app:srcCompat="@drawable/live" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:contentDescription="@string/quote"
+            android:orientation="vertical"
+            app:srcCompat="@drawable/nvision_0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp">
+
+            <Button
+                android:id="@+id/pressbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="86dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:background="#228024"
+                android:contentDescription="@string/press_button"
+                android:minHeight="24dip"
+                android:text="@string/press_button"
+
+                android:textColor="#FFEB3B"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
